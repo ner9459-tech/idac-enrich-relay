@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026/08/23 03:52:27",
+  "round": "76",
+  "nationalCalcDate": "2026/08/23 03:46:02",
+  "trackerTime": "2026-08-23 03:51:33",
+  "count": 11,
+  "records": [
+    {
+      "name": "神無月　燐",
+      "shop": "ＧｉＧＯ豊橋飯村",
+      "car": "ST205[AR]",
+      "point": 204780,
+      "pridePoint": 4147,
+      "prideId": "58446a29e6c496139963728eea887349",
+      "onlineBattleRankId": "",
+      "starCnt": 0,
+      "mytitleId": "2004b284a721b42f6b04c992e2589f29",
+      "updateDate": "2026/08/23 03:41:54"
+    },
+    {
+      "name": "青眼の魔術師",
+      "shop": "ＧｉＧＯ豊橋飯村",
+      "car": "ST205[AR]",
+      "point": 106760,
+      "pridePoint": 2385,
+      "prideId": "58446a29e6c496139963728eea887349",
+      "onlineBattleRankId": "",
+      "starCnt": 0,
+      "mytitleId": "2004b284a721b42f6b04c992e2589f29",
+      "updateDate": "2026/08/23 03:36:22"
+    },
+    {
+      "name": "Ｈａｎｔｙｏ",
+      "shop": "ゲームサファリ池袋",
+      "car": "AP1[AR]",
+      "point": 73080,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 6,
+      "mytitleId": "2004b284a721b42f6b04c992e2589f29",
+      "updateDate": "2026/08/23 03:42:48"
+    },
+    {
+      "name": "琵琶湖博物館",
+      "shop": "ＧｉＧＯ秋葉原３号館",
+      "car": "CP9Aエボ5[AR]",
+      "point": 59420,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 7,
+      "mytitleId": "699edea7710fe1a5fab034cfe76ea95a",
+      "updateDate": "2026/08/23 03:24:29"
+    },
+    {
+      "name": "あ＠とくしま",
+      "shop": "ラウンドワン徳島・万代店",
+      "car": "ST205[AR]",
+      "point": 50480,
+      "pridePoint": 8078,
+      "prideId": "5f88cb6a33355e7bc890d92576e36c94",
+      "onlineBattleRankId": "",
+      "starCnt": 0,
+      "mytitleId": "2004b284a721b42f6b04c992e2589f29",
+      "updateDate": "2026/08/23 03:40:11"
+    },
+    {
+      "name": "摩多羅隠岐奈",
+      "shop": "サンアミューズ鹿屋店",
+      "car": "ST205[AR]",
+      "point": 38600,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 5,
+      "mytitleId": "dae628bc5da842b1f27e397232f9a492",
+      "updateDate": "2026/08/23 03:40:11"
+    },
+    {
+      "name": "レッドブル∞",
+      "shop": "ＧｉＧＯ豊橋飯村",
+      "car": "EG6[HC]",
+      "point": 30420,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 4,
+      "mytitleId": "41e13a9b82609f1a755a60f289bdaa9f",
+      "updateDate": "2026/08/23 03:37:18"
+    },
+    {
+      "name": "未来の三原色",
+      "shop": "ラウンドワンダイバーシティ東京プラザ店",
+      "car": "ST205[AR]",
+      "point": 13860,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 7,
+      "mytitleId": "833c29d1d3084bccf06be1fef648e020",
+      "updateDate": "2026/08/23 03:28:52"
+    },
+    {
+      "name": "おがしょーー",
+      "shop": "群馬レジャーランド伊勢崎店",
+      "car": "SW20[AR]",
+      "point": 1160,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 6,
+      "mytitleId": "ed0708b5c409692504adfbb82cb66c74",
+      "updateDate": "2026/08/23 03:42:48"
+    },
+    {
+      "name": "＋マニア悪魔",
+      "shop": "ラウンドワン徳島・万代店",
+      "car": "FC3S[DH]",
+      "point": 2520,
+      "pridePoint": 0,
+      "prideId": "",
+      "onlineBattleRankId": "dcb98f86f149cf71d3707a1592072e7838f0811140c24238820dff2b82602a85",
+      "starCnt": 8,
+      "mytitleId": "2b5547a662fa0e4159ff9dbdb1b0b4eb",
+      "updateDate": "2026/08/23 03:24:56"
+    },
+    {
+      "name": "りょう＠ＺＲ",
+      "shop": "ＧｉＧＯスエヒロボウル徳島",
+      "car": "FD3S6[AR]",
+      "point": 340,
+      "pridePoint": 90,
+      "prideId": "ef788ee816773c454495ebf83e5ac380",
+      "onlineBattleRankId": "",
+      "starCnt": 0,
+      "mytitleId": "2004b284a721b42f6b04c992e2589f29",
+      "updateDate": "2026/08/23 03:41:55"
+    }
+  ]
+}
