@@ -1,1 +1,66 @@
+# GitHub Pages に enrich.json を定期公開（CORS回避中継）
+# リポジトリ設定: Settings → Pages → Source: GitHub Actions
 
+name: Update IDAC enrich.json
+
+on:
+  schedule:
+    # 5分ごと（GitHubの都合で多少遅れます）
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - "fetch_enrich.py"
+      - ".github/workflows/update-enrich.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch SEGA rankings → enrich.json
+        run: |
+          python3 fetch_enrich.py
+          mkdir -p _site
+          cp enrich.json _site/enrich.json
+          # 簡易インデックス
+          cat > _site/index.html << 'EOF'
+          <!doctype html>
+          <meta charset="utf-8">
+          <title>IDAC enrich relay</title>
+          <p>CORS-friendly relay for IDAC area/national enrich data.</p>
+          <p><a href="./enrich.json">enrich.json</a></p>
+          EOF
+          ls -la _site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
